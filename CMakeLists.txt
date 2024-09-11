@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS catkin_virtualenv)
 catkin_generate_virtualenv(
     PYTHON_INTERPRETER python3.8
     CHECK_VENV FALSE
-    USE_SYSTEM_PACKAGES FALSE
+    USE_SYSTEM_PACKAGES TRUE
 )
 
 catkin_package()
